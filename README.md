@@ -10,6 +10,10 @@
   - [5. 其他](#5-其他)
 <!-- endregion:toc -->
 
+::: danger ⚠️ 备注
+微信小程序是很早之前写的笔记了，目前 `2025 年 3 月 2 日 21:46:52` 所在单位暂时不涉及到这块的相关业务，后续涉及到了再同步更新相关笔记内容。
+:::
+
 ## 1. 快速开始
 
 - [ ] [0001. 创建你的第一个微信小程序](https://github.com/Tdahuyou/TNotes.miniprogram/tree/main/notes/0001.%20%E5%88%9B%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/README.md) <!-- [locale](./notes/0001.%20%E5%88%9B%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/README.md) -->  
