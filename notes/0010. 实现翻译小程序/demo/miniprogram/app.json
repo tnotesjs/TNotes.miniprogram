@@ -1,0 +1,46 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/change/change",
+    "pages/history/history"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#282c34",
+    "navigationBarTitleText": "翻译工具",
+    "navigationBarTextStyle": "white",
+    "backgroundColor": "#282c34"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "position": "bottom",
+    "color": "#bfbfbf",
+    "selectedColor": "#1c1b21",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "翻译",
+      "iconPath": "imgs/icon-1.png",
+      "selectedIconPath": "imgs/sel-icon-1.png"
+    }, {
+      "pagePath": "pages/history/history",
+      "text": "历史",
+      "iconPath": "imgs/icon-2.png",
+      "selectedIconPath": "imgs/sel-icon-2.png"
+    }]
+  },
+  "style": "v2",
+  "rendererOptions": {
+    "skyline": {
+      "defaultDisplayBlock": true,
+      "disableABTest": true,
+      "sdkVersionBegin": "3.0.0",
+      "sdkVersionEnd": "15.255.255"
+    }
+  },
+  "componentFramework": "glass-easel",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents",
+  "networkTimeout": {
+    "request": 2000
+  }
+}

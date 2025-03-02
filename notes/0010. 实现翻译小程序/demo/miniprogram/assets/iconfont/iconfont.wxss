@@ -1,0 +1,27 @@
+/* doc：https://www.iconfont.cn/ */
+@font-face {
+  font-family: 'iconfont';
+  src: url('https://at.alicdn.com/t/c/font_4570570_yg9bezdha9.woff2?t=1717294904376') format('woff2'),
+       url('https://at.alicdn.com/t/c/font_4570570_yg9bezdha9.woff?t=1717294904376') format('woff'),
+       url('https://at.alicdn.com/t/c/font_4570570_yg9bezdha9.ttf?t=1717294904376') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-select:before {
+  content: "\e664";
+}
+
+.icon-close:before {
+  content: "\e8e7";
+}
+
+.icon-down:before {
+  content: "\e621";
+}

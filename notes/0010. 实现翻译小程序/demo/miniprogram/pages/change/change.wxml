@@ -1,0 +1,10 @@
+<!--pages/change/change.wxml-->
+<view class="container" wx:for="{{lanList}}" wx:key="this" data-id="{{index}}" bindtap="selectHandle">
+  <view wx:if="{{curLanIndex === index}}">
+    {{item.chs}}
+    <text class="select iconfont icon-select"></text>
+  </view>
+  <view wx:else>
+    {{item.chs}}
+  </view>
+</view>

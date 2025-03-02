@@ -1,0 +1,4 @@
+<!-- 在 item.wxml 中定义了一个叫 item 的 template： -->
+<template name="item">
+  <text>{{text}}</text>
+</template>

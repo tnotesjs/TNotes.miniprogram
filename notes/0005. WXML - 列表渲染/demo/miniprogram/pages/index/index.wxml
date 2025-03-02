@@ -1,0 +1,27 @@
+<view class="title">列表渲染 注意事项</view>
+
+<!--
+当 wx:for 的值为字符串时，会将字符串解析成字符串数组
+花括号和引号之间如果有空格，将最终被解析成为字符串
+ -->
+
+<view class="sub-title">写法 1</view>
+<view wx:for="array">
+  {{item}}
+</view>
+
+<view class="sub-title">写法 2（和写法 1 等效）</view>
+<view wx:for="{{['a','r','r','a','y']}}">
+  {{item}}
+</view>
+
+<view class="sub-title">写法 3</view>
+<!-- 注意，这里的花括号和引号之间有空格，此时将会被解析为字符串。 -->
+<view wx:for="{{[1,2,3]}} ">
+  {{item}}
+</view>
+
+<view class="sub-title">写法 4（和写法 3 等效）</view>
+<view wx:for="{{[1,2,3] + ' '}}">
+  {{item}}
+</view>

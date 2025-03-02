@@ -1,0 +1,27 @@
+<!-- index.wxml -->
+<view class="title">区分 wx:if 和 hidden</view>
+
+<view>
+  <!-- 使用 wx:if 来条件性渲染这个 view -->
+  <view wx:if="{{loadUsingIf}}" id="if-view">
+    <text>这个文本由 wx:if 控制显示</text>
+  </view>
+
+  <!-- 使用 hidden 来控制这个 view 的显示和隐藏 -->
+  <view hidden="{{hideUsingHidden}}" id="hidden-view">
+    <text>这个文本由 hidden 控制显示</text>
+  </view>
+
+  <!-- 按钮用于切换状态 -->
+  <button bindtap="toggleIf">Toggle wx:if</button>
+  <button bindtap="toggleHidden">Toggle hidden</button>
+
+  <!-- 
+    触发 toggleIf、toggleHidden 之前，打开 Wxml 面板，查看 view 的变化。
+    
+    #if-view 一开始并不存在与 wxml 中，当触发了 toggleIf 之后才渲染它。
+    如果 #if-view 已经显示了，再去触发 toggleIf，会将已经渲染的 #if-view 给销毁掉。
+
+    #hidden-view 从始至终都会渲染，hidden 属性值仅是控制该元素的显示 or 隐藏效果。
+   -->
+</view>

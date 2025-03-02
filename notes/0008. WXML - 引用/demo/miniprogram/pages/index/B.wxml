@@ -1,0 +1,7 @@
+<!-- B.wxml -->
+<import src="A.wxml"/>
+<template name="B">
+  <view> B template </view>
+  <view> 在 B.wxml 中可以访问 A</view>
+  <template is="A"/>
+</template>

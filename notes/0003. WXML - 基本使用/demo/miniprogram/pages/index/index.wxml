@@ -1,0 +1,38 @@
+<view class="title">数据绑定</view>
+<!-- 显示 message 变量的值，这里会显示五次相同的内容 -->
+<view>{{message}}</view>
+<view>{{message}}</view>
+<view>{{message}}</view>
+<view>{{message}}</view>
+<view>{{message}}</view>
+
+<view class="title">列表渲染</view>
+<!-- 使用 wx:for 指令渲染数组，wx:key 设置为 "*this" 表示使用数组元素本身作为唯一键 -->
+<view wx:for="{{array}}" wx:key="*this">第 {{item}} 项</view>
+
+<view class="title">条件渲染</view>
+<!-- 根据 view1 的值条件渲染不同的视图 -->
+<view wx:if="{{view1 == 'case1'}}"> view1 的值是 case1 </view>
+<view wx:elif="{{view1 == 'case2'}}"> view1 的值是 case2 </view>
+<view wx:else="{{view1 == 'case3'}}"> view1 的值是 case3 </view>
+<!-- 根据 view2 的值条件渲染不同的视图 -->
+<view wx:if="{{view2 == 'case1'}}"> view2 的值是 case1 </view>
+<view wx:elif="{{view2 == 'case2'}}"> view2 的值是 case2 </view>
+<view wx:else="{{view2 == 'case3'}}"> view2 的值是 case3 </view>
+<!-- 根据 view3 的值条件渲染不同的视图 -->
+<view wx:if="{{view3 == 'case1'}}"> view3 的值是 case1 </view>
+<view wx:elif="{{view3 == 'case2'}}"> view3 的值是 case2 </view>
+<view wx:else="{{view3 == 'case3'}}"> view3 的值是 case3 </view>
+
+<view class="title">模板</view>
+<!-- 定义条件渲染的模板，可复用于不同的条件判断 -->
+<template name="conditionalRenderingTmp">
+  <view wx:if="{{value == 'case1'}}"> {{name}} 的值是 case1 </view>
+  <view wx:elif="{{value == 'case2'}}"> {{name}} 的值是 case2 </view>
+  <view wx:else="{{value == 'case3'}}"> {{name}} 的值是 case3 </view>
+</template>
+
+<!-- 使用定义好的模板并传入参数 -->
+<template is="conditionalRenderingTmp" data="{{name: 'view1', value: view1}}"></template>
+<template is="conditionalRenderingTmp" data="{{name: 'view2', value: view2}}"></template>
+<template is="conditionalRenderingTmp" data="{{name: 'view3', value: view3}}"></template>

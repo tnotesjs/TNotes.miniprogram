@@ -1,0 +1,71 @@
+<view class="title">组合</view>
+<!-- 也可以在 Mustache 内直接进行组合，构成新的对象或者数组。 -->
+
+<view class="sub-title">1. 数组</view>
+<view wx:for="{{[zero, 1, 2, 3, 4]}}">第 {{item}} 项</view>
+<!-- 最终组合成数组[0, 1, 2, 3, 4]。 -->
+
+<view class="sub-title">2. 对象</view>
+
+<template is="objectCombine1" data="{{foo1: a, bar1: b}}"></template>
+
+<template is="objectCombine2" data="{{...obj1, ...obj2, e: 5}}"></template>
+<!-- 也可以用扩展运算符 ... 来将一个对象展开 -->
+
+<template is="objectCombine3" data="{{foo2, bar2}}"></template>
+<!-- 如果对象的 key 和 value 相同，也可以间接地表达。 -->
+
+<template is="objectCombine4" data="{{...obj3, ...obj4, a2, c: 6}}"></template>
+<!-- 上述方式可以随意组合，但是如有存在变量名相同的情况，后边的会覆盖前面。 -->
+
+<!-- 注意：花括号和引号之间如果有空格，将最终被解析成为字符串。 -->
+<view class="sub-title-2">花括号和引号之间存在空格</view>
+<view wx:for="{{[1,2,3]}} " wx:key="item">
+  第 {{item}} 项
+</view>
+<!--
+等同于
+<view wx:for="{{[1,2,3] + ' '}}">
+  {{item}}
+</view>
+
+[1,2,3] + ' ' 结果是 "1,2,3 "
+使用 wx:for 遍历一个字符串，相当于挨个取出每一个字符，分别是
+  1
+  ,
+  2
+  ,
+  3
+  空格
+ -->
+
+<!-- #region 模板区域 -->
+<template name="objectCombine1">
+  <view class="sub-title-2">objectCombine1 最终组合成的对象是：</view>
+  <view>foo1: {{ foo1 }}</view>
+  <view>bar1: {{ bar1 }}</view>
+</template>
+
+<template name="objectCombine2">
+  <view class="sub-title-2">objectCombine2 最终组合成的对象是：</view>
+  <view>a: {{ a }}</view>
+  <view>b: {{ b }}</view>
+  <view>c: {{ c }}</view>
+  <view>d: {{ d }}</view>
+  <view>e: {{ e }}</view>
+</template>
+
+<template name="objectCombine3">
+  <view class="sub-title-2">objectCombine3 最终组合成的对象是：</view>
+  <view>foo2: {{ foo2 }}</view>
+  <view>bar2: {{ bar2 }}</view>
+</template>
+
+<template name="objectCombine4">
+  <view class="sub-title-2">objectCombine4 最终组合成的对象是：</view>
+  <view>a2: {{ a2 }}</view>
+  <view>b: {{ b }}</view>
+  <view>c: {{ c }}</view>
+  <view>d: {{ d }}</view>
+</template>
+<!-- #endregion 模板区域 -->
