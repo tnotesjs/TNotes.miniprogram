@@ -6,7 +6,7 @@
 
 - [ ] [0001. 创建你的第一个微信小程序](https://tdahuyou.github.io/TNotes.miniprogram/notes/0001.%20%E5%88%9B%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/README) <!-- [locale](./notes/0001.%20%E5%88%9B%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/README) -->  
   
-  - [1. 📝 简介](https://tdahuyou.github.io/TNotes.miniprogram/notes/0001.%20%E5%88%9B%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/README#1--简介)
+  - [1. 📝 笔记内容简介](https://tdahuyou.github.io/TNotes.miniprogram/notes/0001.%20%E5%88%9B%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/README#1--笔记内容简介)
   - [2. 📒 创建小程序](https://tdahuyou.github.io/TNotes.miniprogram/notes/0001.%20%E5%88%9B%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/README#2--创建小程序)
   - [3. 📒 认识目录结构](https://tdahuyou.github.io/TNotes.miniprogram/notes/0001.%20%E5%88%9B%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F/README#3--认识目录结构)
   
@@ -65,7 +65,5 @@
 ## 5. 其他
 
 - [ ] [0011. 查看 AppID](https://tdahuyou.github.io/TNotes.miniprogram/notes/0011.%20%E6%9F%A5%E7%9C%8B%20AppID/README) <!-- [locale](./notes/0011.%20%E6%9F%A5%E7%9C%8B%20AppID/README) -->  
-  
-  - [1. 📝 简介](https://tdahuyou.github.io/TNotes.miniprogram/notes/0011.%20%E6%9F%A5%E7%9C%8B%20AppID/README#1--简介)
-  - [2. 📒 查看 AppID](https://tdahuyou.github.io/TNotes.miniprogram/notes/0011.%20%E6%9F%A5%E7%9C%8B%20AppID/README#2--查看-appid)
+  - [1. 📒 查看 AppID](https://tdahuyou.github.io/TNotes.miniprogram/notes/0011.%20%E6%9F%A5%E7%9C%8B%20AppID/README#1--查看-appid)
   
