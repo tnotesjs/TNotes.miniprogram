@@ -1,7 +1,9 @@
 {
   "author": "Tdahuyou",
   "repoName": "TNotes.miniprogram",
-  "keywords": ["TNotes.miniprogram"],
+  "keywords": [
+    "TNotes.miniprogram"
+  ],
   "ignore_dirs": [
     ".vscode",
     "0000",
@@ -50,5 +52,6 @@
       "link": "https://github.com/Tdahuyou/TNotes.template",
       "icon": "github"
     }
-  ]
+  ],
+  "id": "d35a6255-5140-45ab-95f5-ff99f3a0da8a"
 }
