@@ -1,7 +1,9 @@
 {
   "author": "Tdahuyou",
   "repoName": "TNotes.miniprogram",
-  "keywords": ["TNotes.miniprogram"],
+  "keywords": [
+    "TNotes.miniprogram"
+  ],
   "ignore_dirs": [
     ".vscode",
     "0000",
