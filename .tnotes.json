@@ -13,6 +13,15 @@
   ],
   "port": 9379,
   "rootDocsSrcDir": "../_/docs/src",
+  "home.features.item": {
+    "icon": {
+      "src": "https://cdn.jsdelivr.net/gh/Tdahuyou/imgs@main/assets/icon--miniprogram-wechat.svg"
+    },
+    "title": "小程序",
+    "completed_notes_count": 0,
+    "details": "前司需要做一个年会抽奖的微信小程序，当时看官方文档学了点儿皮毛，现公司目前无这方面的需求，因此目前基本没再更新。【占位仓库】",
+    "link": "https://tdahuyou.github.io/TNotes.miniprogram/"
+  },
   "menuItems": [
     {
       "text": "🏠 Home",
