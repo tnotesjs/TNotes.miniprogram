@@ -1,4 +1,4 @@
-# [0001. 创建你的第一个微信小程序](https://github.com/Tdahuyou/TNotes.miniprogram/tree/main/notes/0001.%20%E5%88%9B%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F)
+# [0001. 创建你的第一个微信小程序](https://github.com/tnotesjs/TNotes.miniprogram/tree/main/notes/0001.%20%E5%88%9B%E5%BB%BA%E4%BD%A0%E7%9A%84%E7%AC%AC%E4%B8%80%E4%B8%AA%E5%BE%AE%E4%BF%A1%E5%B0%8F%E7%A8%8B%E5%BA%8F)
 
 
 <!-- region:toc -->

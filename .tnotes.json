@@ -1,7 +1,9 @@
 {
   "author": "tnotesjs",
   "repoName": "TNotes.miniprogram",
-  "keywords": ["TNotes.miniprogram"],
+  "keywords": [
+    "TNotes.miniprogram"
+  ],
   "ignore_dirs": [
     ".vscode",
     "0000",
@@ -22,7 +24,7 @@
     "details": "小程序",
     "link": "https://tnotesjs.github.io/TNotes.miniprogram/",
     "created_at": 1740922620000,
-    "updated_at": 1757163550240,
+    "updated_at": 1757172133825,
     "days_since_birth": 9379
   },
   "menuItems": [
