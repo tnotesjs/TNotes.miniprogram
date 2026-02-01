@@ -33,12 +33,13 @@
       "25.10": 0,
       "25.11": 0,
       "25.12": 0,
-      "26.01": 0
+      "26.01": 0,
+      "26.02": 0
     },
     "details": "小程序",
     "link": "https://tnotesjs.github.io/TNotes.miniprogram/",
     "created_at": 1740922620000,
-    "updated_at": 1767227726463,
+    "updated_at": 1769948365034,
     "days_since_birth": 9379
   },
   "menuItems": [
