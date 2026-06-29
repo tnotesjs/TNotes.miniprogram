@@ -2,11 +2,11 @@
 
 <!-- region:toc -->
 
-- [1. 📒 查看 AppID](#1--查看-appid)
+- [1. 查看 AppID](#1-查看-appid)
 
 <!-- endregion:toc -->
 
-## 1. 📒 查看 AppID
+## 1. 查看 AppID
 
 - 在微信公众平台上查找自己的小程序 AppID，该 ID 在创建新的小程序项目时必需填写。
 - https://mp.weixin.qq.com/
